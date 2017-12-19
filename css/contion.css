@@ -1,0 +1,45 @@
+
+@charset "utf-8";
+.mainList>ul li{
+	padding: 0rem 0.21rem 0 0.21rem;
+	height:2.19rem;
+	
+}
+.mainList .conditon_card_l{
+	float:left;
+	width:1.61rem;
+	height:2.19rem;
+    line-height:2.75rem;
+}
+.mainList .conditon_card_r{
+	float:right;
+    width: 1.61rem;
+    height: 2.19rem;
+    line-height: 2.75rem;
+
+}
+.mainList .conditon_card_c{
+    position: absolute;
+    width: 5.16rem;
+    height: 2.59rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -2.58rem;
+    margin-top: -1rem;
+
+}
+.conditon_card_c img{
+	float:left;
+	border:none;
+	border-radius: 0rem! important;
+}
+.road{
+	width:5.16rem;
+	height:0.93rem;
+
+}
+.green{
+	width:.516rem;
+	height:0.1rem;
+	background:url(../images/condtions_08.png);
+}

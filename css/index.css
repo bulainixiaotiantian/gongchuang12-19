@@ -1,0 +1,150 @@
+
+@charset "utf-8";
+/*-----------------------内容列表---------------------*/
+.mainList{
+    margin-top: 0.99rem;
+}
+.mainList>ul{
+    padding-bottom: 2.08rem;
+    padding-top: 0.1rem;
+
+	
+}
+.mainList>ul li{
+	position:relative;
+	margin:0.123rem 0;
+	background:#fff;
+	height: 1.38rem;
+	box-shadow:0 0 0.24rem  0.08rem #d3d5d6;
+	padding: 0.11rem 0.34rem 0 0.34rem
+	
+}
+.mainList>ul li img{
+	width:100%;
+    border-radius: 0.1rem;
+}
+.main_roadCard{
+
+	width:23%;
+	float:left;
+
+}
+.main_yesOrNo{
+	width:3.75rem;
+	height:0.98rem;
+	float:left;
+	position:absolute;
+	left:50%;
+	top:50%;
+    margin-left: -1.65rem;
+    margin-top: -0.68rem;
+}
+
+.main_weather{
+	float:right;
+	width:17%;
+	
+}
+/*-----------------------首页公告部分--------------------*/
+
+.notice{
+	background:#ddd6d4;
+	color:#3baeda;
+	font-size:0.39rem;
+	line-height:0.68rem;
+    padding-left:0.1rem;
+}
+.notice>span{
+
+	float:left;
+}
+.notice .more{
+	float:right;
+}
+.notice ul{
+    float:left;
+ 
+}
+.notice ul li{
+
+	float:left;
+	height:0.68rem;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+.notice ul li time,.notice ul li p{
+	float:left;
+}
+.notice ul li time{
+	height:0.68rem;
+	line-height:0.68rem;
+	font-size:0.3rem;
+	color:#929296;
+}
+.notice ul li p{
+    width: 6.6rem;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+/*-----------------------公告内容页面---------------------*/
+.main_notice{    
+	margin-top: 1.23rem;
+
+}
+.main_notice h3{
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 0.54rem;
+    line-height:0.91rem;
+	font-weight:normal;
+}
+.back span{
+	font-size:0.41rem;
+}
+
+
+.back{
+	position:absolute;
+	font-size: 0.35rem;
+    left: 0.08rem;
+}
+.notice_con time {
+	color:#93939b;
+	display:block;
+	text-align:center;
+	height:0.48rem;
+	line-height:0.48rem;
+	font-size:0.41rem;
+}
+.notice_con .notice_text{
+
+	padding-top:0.08rem;
+	height:0.6rem;
+	line-height:0.6rem;
+	/* font-size:41px; */
+	padding: 0.08rem 0.67rem 0;
+	/* text-indent:200px; */
+	color:#171717;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

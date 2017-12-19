@@ -1,0 +1,408 @@
+
+@charset "utf-8";
+/*--------------------高速服务首页------------------------*/
+.serviceBanner {
+	background:url(../images/service_banner1.png)no-repeat;
+	height:4.76rem;
+    margin-top: 0.99rem;
+	background-size:cover;
+}
+body{
+	background:#eaecee;
+}
+.service_main{
+	padding-top:0.37rem;
+	width:85%;
+	margin:0 auto;
+    padding-bottom: 2.1rem;
+}
+.service_main li{
+    margin: 0 0.44rem 0.28rem 0;
+    box-shadow: 0 0 0.28rem 0.08rem #a5a8a9;
+    float: left;
+    border-radius: 0.67rem;
+    width: 47%;
+}
+.service_main li:nth-child(1){
+	background:#79c94e;
+}
+.service_main li:nth-child(2){
+	background:#f77f44;
+}
+.service_main li:nth-child(3){
+	background:#01b5da;
+}
+.service_main li:nth-child(4){
+	background:#4accc0;
+}
+
+.service_main .no_margin{
+	margin-right:0;
+}
+.service_main li img{
+	 border-radius: 0.5rem;
+	 float:left;
+	 width:100%;
+}
+/*--------------------服务区页----------------------------------*/
+.fuwu_banner{
+	margin-top:0.99rem;
+	background:url(../images/service_banner2.png);
+	background-size:cover;
+	height:4.33rem;
+}
+.fuwu_main{
+	padding-bottom:2.41rem;
+}
+.fuwu_main .title{
+	font-size:0.36rem;
+	border-left:0.05rem solid #eca831;
+	color:#01b5da;
+	margin-left:0.36rem;
+	padding-left:0.12rem;
+	line-height:0.85rem;
+	margin-top:0.09rem;
+}
+
+.fuwu_main ul{
+    padding: 0 0.3rem;
+}
+
+.fuwu_main ul li{
+    margin: 0.15rem 0.15rem 0;
+    width: 3.87rem;
+	height:1.81rem;
+	line-height:1.81rem;
+	color:#fff;
+	font-size:0.37rem;
+	text-align:center;
+    float: left;
+	letter-spacing:0.03rem;
+    box-shadow: 0 0 0.28rem 0.08rem #a5a8a9;
+    border-radius: 0.14rem;
+}
+.fuwu_main ul li:nth-child(1){
+	background:#79c94e;
+}
+.fuwu_main ul li:nth-child(2){
+	background:#eca831;
+}
+.fuwu_main ul li:nth-child(3){
+	background:#01b5da;
+}
+.fuwu_main ul li:nth-child(4){
+	background:#be7ef3;
+}
+.fuwu_main ul li:nth-child(5){
+	background:#eca831;
+}
+.fuwu_main ul li:nth-child(6){
+	background:#79c94e;
+}
+.fuwu_main ul li img{
+	float:left;
+}
+
+/*--------------------服务内容----------------------------------*/
+
+.fuwu_c_banner{
+	height:3.51rem;
+	background:url(../images/fuwu.png);
+	background-size:cover;
+	margin-top:0.99rem;
+}
+.service_list_banner{
+	height:3.65rem;
+	background:url(../images/servicelist.png);
+	background-size:cover;
+    margin-top: -0.99rem;
+}
+
+#fuwuqu ul li{
+	background:#f57c35!important;
+	margin:0.25rem 0.3rem 0;
+    width: 3.39rem;
+	box-shadow: 0 0 0.28rem 0.08rem #babdbd;
+}
+#fuwuqu ul{
+	padding:0 0.51rem;
+	
+}
+
+.fuwu_header{
+	background:none;
+}
+.service_list_title{
+    line-height: 0.99rem;
+    padding-left: 0.96rem;
+    color: #000;
+    font-size: 0.4rem;
+    height: 0.99rem;
+    background-color: #eaecee;
+    background-image: url(../images/icon_ti.png);
+    background-position: 0.4rem 0.31rem;
+    background-repeat: no-repeat;
+}
+.service_list_title span{
+	margin-left:0.62rem;
+    border-left: 0.05rem solid #eca831;
+	padding-left:0.12rem;
+}
+.aside_list{
+	width:2.36rem;
+	float:left;
+	background:#e1e4e9;
+}
+
+.service_list{
+	width:6.64rem;
+	float:left;
+	background:#fffdfd;
+}
+.service_list_main .aside_list{
+	padding-bottom:8rem;
+}
+.service_list_main ul{
+	float:left;
+}
+
+.service_list_main .aside_list li{
+	height:0.97rem;
+	line-height:0.97rem;
+	font-size:0.28rem;
+	color:#000;
+	text-align:center;
+	border-bottom:0.01rem solid #c8c9ca;
+}
+.service_list_main .con_list{
+	width:6.64rem;
+}
+.service_list_main .con_list:last-child{
+	padding-bottom:2.5rem;
+}
+.service_list_main .con_list time{
+	float:right;
+} 
+.aside_chooes{
+	background:#fff;
+}
+.service_list_main .con_list li{
+	height:1.11rem;
+	padding:0 0.2rem 0 0.54rem;
+	line-height:1.11rem;
+	font-size:0.28rem;
+	color:#000;
+	background:url(../images/list_con.png) 0.15rem 0.42rem  no-repeat; 
+    letter-spacing: 0.03rem;
+	
+}
+
+.list_header{
+	position:relative;
+}
+
+
+
+.service_police_banner{
+	height:3.83rem;
+	background:url(../images/police_banner.png) no-repeat;
+	background-size:cover;
+	margin-top:0.98rem;
+}
+.ph_icon {
+	width:1.14rem;
+	height:1.75rem;
+	background:url(../images/icon_ph.png) no-repeat;
+	background-size: cover;
+	float:left;
+}
+.service_main{
+    padding: 0.26rem 0.8rem 0;
+	background:#fff;
+	height:8rem;
+}
+.ph_letter{
+	float:left;
+	height:1.75rem;
+	width:5.59rem;
+	background:url(../images/phone_letter.png) no-repeat;
+	background-size: cover;
+}
+.ph_jiantou{
+	width:3.25rem;
+	height:3.13rem;
+	background:url(../images/jiantou.png) no-repeat;
+	background-size: cover;
+	float:left;
+	
+}
+.ph_phnoe{
+	width:3.09rem;
+	height:3.37rem;
+	float:left;
+	margin-left:0.73rem;
+	background:url(../images/phnoe.png) no-repeat;
+	background-size: cover;
+}
+.service_luzheng_banner{
+	
+	height:3.83rem;
+	background:url(../images/phone_banner1_03.png) no-repeat;
+	background-size:cover;
+	margin-top:0.99rem;
+}
+.service_ph_banner{
+	height:4.14rem;
+	margin-top:0.99rem;
+	background:url(../images/help_banner.png) no-repeat;
+	background-size:cover;
+}
+.service_num{
+	height:1.41rem;
+	width:6.95rem;
+	float:left;
+	margin:0.27rem 0.21rem 0 0;
+	background:url(../images/help_num.png) no-repeat;
+	background-size:cover;
+}
+.phone_btn{
+	width:1.39rem;
+	height:1.62rem;
+	background:url(../images/help_btn.png) no-repeat;
+	background-size:cover;
+	float:left;
+}
+.main_service_help{
+	padding:0 0.5rem;
+    letter-spacing: 0.03rem;
+	padding-bottom:2.36rem;
+}
+
+.help_title{
+	padding-left: 0.09rem;
+    color: #f68d05;
+    font-size: 0.39rem;
+    margin: 0.4rem 0;
+    border-left: 0.05rem solid #f87308;
+}
+
+table{
+	border-collapse: collapse;
+	border:none;
+	box-shadow: 0 0 0.17rem 0.03rem #969896;
+}
+tr {
+	border-bottom:0.01rem solid #8c908d;
+}
+.tr_title{
+	width:1.45rem;
+	background:#d3d9d5;
+	text-align:center;
+	height:0.49rem;
+	font-size:0.2rem;
+}
+.tr_con{
+	width:7.27rem;
+}
+table input{
+	display:inline-block;
+	width:100%;
+	height:0.38rem;
+	border:none;
+}
+table ul{
+	float:left;
+	width:4.44rem;
+	overflow:hidden;
+	max-height:2rem;
+}
+table ul li{
+	position:relative;
+	float:left;
+} 
+table ul i img{
+	width:0.19rem;
+	height:0.19rem;
+	position:absolute;
+	right:0;
+	top:0;
+}
+textarea{
+	resize:none;
+	width:100%;
+	border:none;
+	height:0.48rem;
+}
+tr{
+	background: #fff;
+}
+td img{
+	width:0.96rem;
+	height:0.96rem;
+	margin-left:0.15rem;
+	background:url(../images/delete.png) no-repeat;
+	position:relative;
+	z-index:2;
+}
+td span{
+    text-align: right;
+    float: right;
+    padding-right:1.19rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.33rem;
+}
+td  button{
+	width:1.72rem;
+	height:0.38rem;
+	background:#fb805e;
+	border-radius:0.1rem;
+	color:#fff;
+	font-size:0.22rem;
+	margin:0 auto;
+}
+.push td button{
+	display:inline-block;
+	text-align:center;
+	height:0.38rem;
+	border:none;
+	border-radius:0.15rem;
+	background:#fb805e;
+	width: 100%;
+}
+.location_auto{
+	text-align:center;
+}
+.button_votice{
+	height:0.48rem;
+	background:#fb805e;
+	line-height:0.48rem;
+	font-size:0.25rem;
+	text-align:center;
+	color:#36383f;
+	
+}
+.votice_con{
+	text-indent:2em;
+	line-height:0.34rem;
+	padding:0.14rem 0.34rem;
+	border:0.04rem solid #f8ac8a;
+}
+
+.gongli{
+	padding-left:0.78rem;
+}
+.gongli dl{
+	float:left;
+}
+.gongli dt{
+	font-size:0.32rem;
+	line-height:0.35rem;
+}
+.gongli dd{
+	font-size:0.2rem;
+	line-height:0.33rem;
+}
+.gongli img{
+	float:right;
+}
